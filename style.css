@@ -1,0 +1,522 @@
+  
+header{
+    background-image:url('images/mall-background-2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+body { padding: 0; margin: 0;
+}
+.nav-top{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgba(248, 248, 248, 0.5);
+}
+.nav-top a{
+    text-decoration: none;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px
+    font-size:20px ;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    color: green;
+}
+
+.nav-top li a:hover{
+    color:black;
+}
+.logo img{
+    width: 190px;
+    height: auto;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.body-line{
+    position: absolute;
+    width: 1200px;
+    top: 0;
+    left: 0;   
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+    color: purple;
+    font-family: 'Anton', sans-serif;
+    background-color:whitesmoke;
+    border: 2px solid rgb(175, 102, 243);
+}    
+.sub-body{
+    position: absolute;
+    width: 1200px;
+    top: 0;
+    left: 0;   
+    align-items: center;
+    justify-content: center;  
+    width: 100%;
+    margin-top: 260px;
+    margin-left: 10px;
+}
+h2{
+    font-size: 20px;
+    color: purple;
+    padding-left: 40px;
+    
+}
+.each-box{
+    border: 2px solid purple;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin-left: 3px;
+    
+}
+.each-box:hover{
+    transform: scale(1.1);
+}
+.nav-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgba(248, 248, 248, 0.5); 
+}
+.nav-bottom a{
+    display: inline-block;
+    width: 33%;
+    padding-top: 15px;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+}
+.nav-bottom a:hover{
+    color:black;
+}
+.store-background-0{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.store-background-1{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.store-background-2{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.store-background-3{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.store-background-4{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.store-background-5{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.each-store{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-top: 200px;
+}
+.store-label{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+}
+h4{
+    margin-left: 150px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:teal;
+    border: 2px solid teal;
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
+
+.each-store{
+    background-color: white;
+    margin-top: 220px;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;   
+}
+.each-store-1{
+    background-color: white;
+    margin-top: 260px;
+    padding-left: 10px;
+    width: 100%;  
+}
+.each-store-2{
+    background-color:white;
+    margin-top: 255px;
+    padding-left: 10px;
+    width: 100%;  
+}
+.each-store-3{
+    background-color:white;
+    margin-top: 25px;
+    padding-left: 10px;
+    width: 100%;  
+}
+.each-store-4{
+    background-color: white;
+    margin-top: 22px;
+    padding-left: 10px;
+    width: 100%;  
+}
+.body-image{background-image: url(images/body-picture.jpg);
+    background-position: center;
+}
+.store-box{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.store-info img{
+    margin-top: 200px;
+}
+.store-info-2 img{
+    padding-left: 8px;
+}
+.description{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+    text-align:center; 
+    padding-top: 210px;
+}   
+h5{
+    line-height: 0;
+    font-size: 30px;
+    margin: 0;
+    padding-left: 520px;
+}
+.para-description{
+    margin-left: 520px;
+    font-size:18px ;  
+}
+.store-logo-0{
+    margin-left: 520px;
+}
+.store-logo-1{
+    margin-left: 520px;
+}
+.store-logo-2{
+    margin-left: 520px;
+}
+.store-logo-3{
+    margin-left: 520px;
+}
+.store-logo-4{
+    margin-left: 520px;
+}
+.store-logo-5{
+    margin-left: 520px;
+}
+/*=================================MOVIES=====================================*/
+.background{
+    background-image: url(images/movie-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.movie{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    width: 1200px;
+}
+.movie-again{
+    margin-top: 150px;
+    margin-left: 10px;  
+    line-height: 0; 
+
+}
+
+h6{
+    font-weight: 900;
+    font-size: 13px;
+    padding-left: 10px;
+    color: white; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.head-color{
+    color:white;   
+}
+.movie-list{
+    display: inline-block;
+    border: 2px solid black
+}
+.store-info img{
+    padding-left: 10px;
+}
+
+.movie-list img:hover{
+    transform: scale(1.1);
+}
+.movie-description{
+    position: absolute;
+    width: 1200px;
+    margin-top: 0;
+    margin-left: 0;
+    text-align:center; 
+    padding-top: 160px;
+}
+.wrap-movie-info{
+    margin-left: 550px;
+    margin-top: 60px;
+}
+.times{
+    margin-left:550px;
+}
+.actors{
+    margin-left: 20px;
+}
+.movie-border{
+    
+    text-align: center;
+}
+.movie-info{
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: grey;
+}
+.age-limit{
+    border: 3px solid grey;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    margin-left: 300px;
+}
+.age-limit-1{
+    margin-left: 5px;
+}
+.movie-title{
+    border: 30px solid grey;
+    background-color: grey;
+    margin-left: 550px;
+}
+.release-date{
+    border: 1px solid grey;
+    background-color: grey;   
+    width: 200px;   
+}
+.times{
+    margin-left: 775px;
+}
+.release-date-1{
+    border: 1px solid grey;
+    background-color: grey;   
+    width: 200px;   
+}
+.times-1{
+    margin-left: 215px;
+}
+.main-header{
+    background-image: url('images/map-background-blur.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.map-header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1200px;
+}
+.map-header-2{
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 145px;
+}
+.map-heading{
+    font-size: 40px;
+    font-weight: 900;
+    color:green;
+}
+.main-header-1{
+    background-image: url('images/mall-background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.map-header-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1200px;
+}
+.map-header-3{
+    text-align: center;
+    margin-left: 240px;
+    margin-top: 145px;
+}
+.map-heading-1{
+    font-size: 40px;
+    font-weight: 900;
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+}
+.trading-hours{
+    text-align: left;
+    margin-top: 42px;
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+    width: 25%;
+    font-weight: 800;
+}
+.hours-heading{
+    padding-left: 50px;
+}
+.hours{
+    padding-left: 20px;
+}
+.contact-form{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.form-border{
+    margin-top: 240px;
+    margin-left: 270px;
+}
+textarea{
+    margin-left: 230px; 
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+}
+.form-heading{
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5); 
+    width: 35%; 
+    height: 22px; 
+    font-weight: 800;
+    margin-left: 233px;
+}
+.submit-button{
+    font-weight: 800;
+    margin-left: 210px;
+    color:white;
+    background-color: crimson;
+}
+.contact-us{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 220px;
+}
+.contact-us-info{
+    margin-left: 525px;
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5); 
+    width: 35%;
+}
+.contact-info{
+    margin-left: 453px; 
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+    height: 30px;
+    width: 45%;
+}
+ul{
+    list-style:none;   
+}
+.map-heading-2{
+    font-size: 40px;
+    font-weight: 900;
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+    width: 55%;
+    margin-left: 210px;
+    
+}
+.about-line{
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+.mall-images-1{
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+    font-size: 30px;
+}
+.mall-images-2{
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+    font-size: 30px;
+}
+.mall-images-3{
+    border: 3px solid black;
+    background: rgba(248, 248, 248, 0.5);   
+    border-radius: 10px;
+    font-size: 30px;
+}
+.header-body{
+    background-image: url('images/after-submit-image.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
